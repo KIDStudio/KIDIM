@@ -113,7 +113,7 @@ namespace Server
             {
                 NetworkStream stream = client.GetStream();
 
-                Console.WriteLine("");
+                Console.WriteLine("master");
             }
             catch (Exception ex)
             { }
