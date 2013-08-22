@@ -115,6 +115,7 @@ namespace Server
 
                 Console.WriteLine("master");
                 Console.WriteLine("branch2");
+                Console.WriteLine("branch3");
             }
             catch (Exception ex)
             { }
