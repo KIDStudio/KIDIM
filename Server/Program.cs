@@ -114,6 +114,7 @@ namespace Server
                 NetworkStream stream = client.GetStream();
 
                 Console.WriteLine("master");
+                Console.WriteLine("branch2");
             }
             catch (Exception ex)
             { }
