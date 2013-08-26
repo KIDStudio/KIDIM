@@ -49,8 +49,6 @@ namespace Server
 
                     int i;
 
-                    Console.WriteLine("123");
-
                     // Loop to receive all the data sent by the client.
                     if ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                     {
@@ -113,9 +111,6 @@ namespace Server
             {
                 NetworkStream stream = client.GetStream();
 
-                Console.WriteLine("master");
-                Console.WriteLine("branch2");
-                Console.WriteLine("branch3");
             }
             catch (Exception ex)
             { }
