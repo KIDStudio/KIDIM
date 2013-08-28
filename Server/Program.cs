@@ -111,6 +111,7 @@ namespace Server
             {
                 NetworkStream stream = client.GetStream();
 
+                Console.WriteLine("Clone Test");
             }
             catch (Exception ex)
             { }
