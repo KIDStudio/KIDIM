@@ -11,6 +11,10 @@ namespace Server
 {
     class Program
     {
+        /// <summary>
+        /// 加个注解，尝试GIT
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var config = GetConfigFile();
