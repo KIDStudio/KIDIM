@@ -14,14 +14,10 @@ namespace Server
     
     public partial class User
     {
-        public User()
-        {
-            this.SessionID = -1;
-        }
-    
         public int ID { get; set; }
         public string Name { get; set; }
         public string Password { get; set; }
         public int SessionID { get; set; }
+        public string Comment { get; set; }
     }
 }

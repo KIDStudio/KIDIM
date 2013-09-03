@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server Compact Edition
 -- --------------------------------------------------
--- Date Created: 08/22/2013 15:15:10
+-- Date Created: 09/03/2013 09:13:21
 -- Generated from EDMX file: D:\Workspace\KIDIM\Server\ServerModel.edmx
 -- --------------------------------------------------
 
@@ -30,7 +30,8 @@ CREATE TABLE [User] (
     [ID] int IDENTITY(1,1) NOT NULL,
     [Name] nvarchar(4000)  NOT NULL,
     [Password] nvarchar(4000)  NOT NULL,
-    [SessionID] int  NOT NULL
+    [SessionID] int  NOT NULL,
+    [Comment] nvarchar(4000)  NOT NULL
 );
 GO
 
